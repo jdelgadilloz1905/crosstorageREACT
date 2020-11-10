@@ -9,7 +9,7 @@ class Host3 extends Component {
 			'usted no tiene provilegios desde cross_iframe'
 		)
 
-		//allowed domains (that can use RegExp)
+		//lisra blanca
 
 		var whitelist = ['localhost:3000', 'localhost', '^.*.domain.com']
 
