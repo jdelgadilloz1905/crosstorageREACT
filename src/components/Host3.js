@@ -4,13 +4,7 @@ import React, { Component } from 'react'
 
 class Host3 extends Component {
 	componentDidMount() {
-		localStorage.setItem(
-			'host3',
-			'usted no tiene provilegios desde cross_iframe'
-		)
-
-		//lisra blanca
-
+		//lista blanca de las URL que va aceptar el dominio para reibir las variables del otro dominio
 		var whitelist = ['localhost:3000', 'localhost', '^.*.domain.com']
 
 		function verifyOrigin(origin) {
